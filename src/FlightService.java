@@ -1,5 +1,5 @@
 public class FlightService {
-    public void bookFlightTicket(String[] args){
-        System.out.println("flight ticket");
+    public void bookFlightTicket(String destination){
+        System.out.println("[Flight] Flight booked to destination: " + destination);
     }
 }
