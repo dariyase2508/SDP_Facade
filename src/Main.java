@@ -3,6 +3,8 @@ public class Main{
         BookingFacade bookingFacade = new BookingFacade();
         bookingFacade.bookComplexTrip("Istanbul");
 
+        System.out.println();
+
         bookingFacade.bookingTripToAitu("Astana");
     }
 }
